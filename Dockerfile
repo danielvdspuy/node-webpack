@@ -8,6 +8,7 @@ RUN npm config set registry http://registry.npmjs.org/ && npm install
 
 WORKDIR /usr/src/app
 COPY ./app/ /usr/src/app/
+COPY ./webpack.config.js /usr/src/app/webpack.config.js
 RUN cp -a /tmp/node_modules /usr/src/app/
 
 EXPOSE 35729
