@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/danielvdspuy/node-webpack.svg?branch=master)](https://travis-ci.org/danielvdspuy/node-webpack) [![Docker build status](https://img.shields.io/docker/pulls/danielvdspuy/node-webpack.svg)]()
