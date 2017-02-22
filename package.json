@@ -1,0 +1,34 @@
+{
+  "name": "node-webpack",
+  "version": "1.0.0",
+  "description": "Webpack watcher for JS, HTML & SASS projects",
+  "main": "webpack.config.js",
+  "scripts": {
+    "watch": "webpack --watch --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielvdspuy/node-webpack.git"
+  },
+  "author": "hello@danielvdspuy.co",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/danielvdspuy/node-webpack/issues"
+  },
+  "homepage": "https://github.com/danielvdspuy/node-webpack#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.5.0",
+    "rimraf": "^2.6.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-watch-livereload-plugin": "0.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
